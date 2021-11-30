@@ -1,5 +1,4 @@
 # Algoritmos-y-programacion-1-95.11-FIUBA
-repository of the team formed by Guido and Jose for the realization of the final project
 Repositorio del equipo conformado por Johann Pollero (108752) y Guido Rodriguez (108723) para la realización del trabajo práctico final
 ## Materia
 Algoritmos y Programacion 1 - 95.11
