@@ -10,6 +10,12 @@ Para compilar el ejercio se hace uso del compilador gcc en conjunto de la herram
 make
 ```
 **Observación:** Los flags utilizados para la compilación son -Wall -Werror -std=c99 -pedantic -g -lm. Es importante mencionar que el flag -g es utilizado unicamente en la fase de desarrollo del proyecto para la depuración del mismo.
+## Ejecución
+Ejemplo de ejecución
+```c
+./ray 640 480 10 imagen.bmp
+```
+**Observación:** La resolución de imagen del ejemplo es VGA, la profundidad de recursión es de 10 y el archivo de salida es de formato bmp. También puede ser ppm.
 ## Contacto
 jpollero@fi.uba.ar
 guerodriguez@fi.uba.ar
