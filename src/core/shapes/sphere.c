@@ -2,7 +2,7 @@
  * @file sphere.c
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
  * @brief TDA de esferas
- * @version 0.1
+ * @version 1.0
  * @date 2021-12-05
  *
  * @copyright Copyright (c) 2021
