@@ -29,7 +29,7 @@ typedef struct {
  * @pre         La normal debe ser un versor
  * @param[in]   punto: Punto del plano
  * @param[in]   normal: Normal del plano
- * @retval      plano_t: Puntero a la estructura plano_t creada
+ * @retval      plano_t*: Puntero a la estructura plano_t creada
  * @retval      NULL: Error en la creacion de la estructura plano_t
  */
 plano_t         *plano_crear(const vector_t punto, const vector_t normal);
