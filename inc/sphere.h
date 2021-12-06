@@ -45,7 +45,7 @@ void            esfera_destruir(esfera_t *esfera);
  *              primer impacto de un rayo sobre una esfera
  * @pre         La esfera debe ser un puntero a una estructura esfera_t valida
  * @pre         El rayo d debe ser un versor.
- * @param[in]   esfera: Puntero a struct esfera_t.
+ * @param[in]   esfera: Puntero a una estructura esfera_t
  * @param[in]   o: Coordenadas de origen desde las que el rayo es disparado
  * @param[in]   d: Versor asociado al rayo a disparar contra la esfera
  * @param[out]  punto: Punto de impacto.
