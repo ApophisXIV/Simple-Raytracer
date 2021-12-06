@@ -1,6 +1,7 @@
 /**
  * @file bmp.h
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
+ * @brief BMP
  * @version 1.0
  * @date 2021-11-19
  *
