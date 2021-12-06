@@ -2,7 +2,7 @@
  * @file dynamic_array.c
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
  * @brief TDA Arreglo dinamico
- * @version 0.1
+ * @version 1.0
  * @date 2021-12-02
  *
  * @copyright Copyright (c) 2021
