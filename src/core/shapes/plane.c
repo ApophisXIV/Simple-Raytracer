@@ -14,6 +14,11 @@
 #include "../../../inc/plane.h"
 #include "../../../inc/vector.h"
 
+struct plano {
+	vector_t punto;
+	vector_t normal;
+};
+
 plano_t *plano_crear(const vector_t punto, const vector_t normal) {
 
 	plano_t *plano = malloc(sizeof(plano_t));
@@ -26,8 +31,8 @@ plano_t *plano_crear(const vector_t punto, const vector_t normal) {
 	return plano;
 }
 
-void plano_destruir(plano_t *plano) {
-	free(plano);
+void plano_destruir(void *plano) {
+	free((plano_t *)plano);
 }
 
 float plano_distancia(const plano_t *plano, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal) {

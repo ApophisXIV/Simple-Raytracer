@@ -15,10 +15,8 @@
 #include "vector.h"
 
 /* ----------------------------- Data structures ---------------------------- */
-typedef struct {
-	vector_t    centro;
-	float       radio;
-} esfera_t;
+struct esfera;
+typedef struct esfera esfera_t;
 
 /* ------------------------------- Prototypes ------------------------------- */
 

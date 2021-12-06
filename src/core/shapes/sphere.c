@@ -14,6 +14,11 @@
 #include "../../../inc/sphere.h"
 #include "../../../inc/vector.h"
 
+struct esfera {
+	vector_t centro;
+	float radio;
+};
+
 esfera_t *esfera_crear(const vector_t centro, const float radio) {
 
 	esfera_t *esfera_h = malloc(sizeof(esfera_t));
