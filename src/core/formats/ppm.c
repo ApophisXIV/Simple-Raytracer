@@ -1,6 +1,7 @@
 /**
- * @file ppm.c
+ * @file ppm.h
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
+ * @brief PPM
  * @version 1.0
  * @date 2021-11-19
  *
@@ -11,7 +12,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "../../../include/ppm.h"
+#include "../../../inc/ppm.h"
 
 static void f_color_imprimir(const color_t c, FILE *f) {
     fprintf(f, "%d ", (uint8_t)(c.r > 1 ? 255 : (c.r * 255)));
