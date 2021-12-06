@@ -1,8 +1,9 @@
 /**
  * @file core.h
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
+ * @brief App core
  * @version 1.0
- * @date 2021-11-19
+ * @date 2021-12-06
  *
  * @copyright Copyright (c) 2021
  *
@@ -12,15 +13,10 @@
 #define CORE_H
 
 /* -------------------------------- Includes -------------------------------- */
-#include <stdint.h>
 #include <stdbool.h>
 
 #include "imagen.h"
-#include "mandelbrot.h"
-
-/* --------------------------------- Macros --------------------------------- */
-#define MANDELBROT &mandelbrot
-
+#include "scene.h"
 
 /** @defgroup Core Core
  *  @{
@@ -28,14 +24,13 @@
 
 /* ------------------------------- Prototypes ------------------------------- */
 /**
- * @brief  Rellena una imagen con la forma que genera una funcion recibida por parametro.
- * @pre    La imagen debe haber sido creada previamente.
- * @pre    La funcion recibida por parametro debe ser coincidente con la forma color_t (f)(ambiente, origen, rayo versor).
- * @param  *img: Puntero a la imagen a rellenar.
- * @param  color_t(*figura)(color_t, vector_t, vector_t): Puntero a la funcion que genera la forma.
- * @retval bool: True si la imagen fue rellenada correctamente, false en caso contrario.
+ * @brief  Genera una escena con los datos dados.
+ * @pre    Escena debe apuntar a una miembros validos de la estructura escena_t.
+ * @param  *escena: Puntero a la escena a generar.
+ * @param  *imagen: Puntero a la imagen a renderizar.
+ * @retval True si la escena fue generada con exito, false en caso contrario.
  */
-bool fill_img_w_shape(imagen_t *img, size_t ancho, size_t alto, color_t (*figura)(color_t, vector_t, vector_t));
+bool generar_escena(escena_t *escena, imagen_t *imagen);
 
 /** @} */
 
@@ -47,6 +42,4 @@ bool fill_img_w_shape(imagen_t *img, size_t ancho, size_t alto, color_t (*figura
 /** @defgroup Output Output */
 /** @} */
 
-
-
-#endif    // CORE_H
+#endif	  // CORE_H
