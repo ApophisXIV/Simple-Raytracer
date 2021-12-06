@@ -1,4 +1,3 @@
-
 /**
  * @file csv_parser.c
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
@@ -9,5 +8,7 @@
  * @copyright Copyright (c) 2021
  *
  */
+
+//TODO Implementar el parser de CSV
 
 #include "../../../inc/csv_parser.h"
