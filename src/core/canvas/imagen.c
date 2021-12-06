@@ -8,7 +8,7 @@
  *
  */
 
-#include "../../../include/imagen.h"
+#include "../../../inc/imagen.h"
 
 #include <stdlib.h>
 
