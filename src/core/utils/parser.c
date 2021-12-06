@@ -1,6 +1,7 @@
 /**
  * @file parser.c
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
+ * @brief Parser de entrada de datos y escena
  * @version 1.0
  * @date 2021-11-13
  *
