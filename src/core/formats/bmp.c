@@ -1,6 +1,7 @@
 /**
- * @file bmp.c
+ * @file bmp.h
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
+ * @brief BMP
  * @version 1.0
  * @date 2021-11-19
  *
@@ -10,7 +11,7 @@
 
 #include <stdint.h>
 
-#include "../../../include/bmp.h"
+#include "../../../inc/bmp.h"
 
 /* ------------------------ Encabezado de Archivo BMP ----------------------- */
 #define BMP_FILE_HEADER_TYPE 0x4D42    //"BM"
