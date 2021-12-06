@@ -1,6 +1,7 @@
 /**
  * @file imagen.h
  * @author Sebastian Santisi
+ * @brief TDA Imagen
  * @version 1.0
  * @date 2021-11-19
  *
