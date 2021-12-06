@@ -15,8 +15,16 @@
 #include "color.h"
 #include "vector.h"
 
-/* ----------------------------- Data structures ---------------------------- */
+/* ---------------------------------- Enums --------------------------------- */
+typedef enum {
+	OBJECT_SPHERE,
+	OBJECT_PLANE,
+	OBJECT_TRIANGLE,
+	OBJECT_MESH,
+	OBJECT_UNKNOWN
+} geometria_t;
 
+/* ----------------------------- Data structures ---------------------------- */
 struct objeto;
 typedef struct objeto objeto_t;
 
@@ -34,7 +42,7 @@ typedef struct objeto objeto_t;
  * @retval      objeto_t*: Puntero a la estructura objeto_t creada
  * @retval      NULL: Error en la creacion de la estructura objeto_t
  */
-objeto_t        *objeto_crear(void *geometria_ptr, float ka, float kd, float ks, float kr);
+objeto_t        *objeto_crear(const void *geometria_ptr, const geometria_t g_tipo, const float ka, const float kd, const float ks, const float kr, const color_t rgb);
 
 /**
  * @brief       Destructor de la estructura objeto_t reservada en memoria dinamica
@@ -56,6 +64,6 @@ void            objeto_destruir(objeto_t *objeto);
  * @retval      float: Distancia calculada
  * @retval      INFINITO: El rayo no impacto sobre la esfera
  */
-float           objeto_distancia(const objeto_t *objeto, vector_t o, vector_t d, vector_t *punto, vector_t *normal);
+float           objeto_distancia(const objeto_t *objeto, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal);
 
 #endif	  // OBJECT_H
