@@ -8,62 +8,60 @@
  *
  */
 
-
 #include <stdio.h>
 
-#include "../include/parser.h"
+#include "../inc/parser.h"
 
-#include "../include/core.h"
+#include "../inc/core.h"
+#include "../inc/scene.h"
 
-#include "../include/bmp.h"
-#include "../include/ppm.h"
+#include "../inc/bmp.h"
+#include "../inc/ppm.h"
 
 int main(int argc, char *argv[]) {
 
 	//--Entrada----------------------
-	int ancho;
-	int alto;
-	int file_type = FT_PPM;
+	escena_t escena;
+	file_type_t file_type;
 
-	if (!is_a_valid_input(argc, argv, &ancho, &alto, &file_type))
+	if (!is_a_valid_input(argc, argv, &escena, &file_type))
 		return 1;
 
 	//--Procesamiento----------------
-	imagen_t *img = imagen_crear(ancho, alto);
+	imagen_t *img = imagen_crear(escena.ancho, escena.alto);
 	if (img == NULL) {
 		fprintf(stderr, "Error al crear la imagen\n");
 		return 1;
 	}
 
-
-
-	if (!fill_img_w_shape(img, ancho, alto, MANDELBROT)) {
-        imagen_destruir(img);
+	if (!generar_escena(&escena, img)) {
+		imagen_destruir(img);
 		fprintf(stderr, "Error al generar la imagen\n");
 		return 1;
 	}
 
 	//--Salida-----------------------
+	// TODO Mejorar con tablas de busqueda
 	switch (file_type) {
 
 		case FT_PPM: {
-			FILE *img_ppm = fopen(argv[3], "w");
-            if (img_ppm == NULL) {
-                imagen_destruir(img);
-                fprintf(stderr, "Error al abrir el archivo\n");
-                return 1;
-            }
+			FILE *img_ppm = fopen(argv[4], "w");
+			if (img_ppm == NULL) {
+				imagen_destruir(img);
+				fprintf(stderr, "Error al abrir el archivo\n");
+				return 1;
+			}
 			escribir_PPM(img, img_ppm);
 			fclose(img_ppm);
 		} break;
 
 		case FT_BMP: {
-			FILE *img_bmp = fopen(argv[3], "wb");
-            if (img_bmp == NULL) {
-                imagen_destruir(img);
-                fprintf(stderr, "Error al abrir el archivo\n");
-                return 1;
-            }
+			FILE *img_bmp = fopen(argv[4], "wb");
+			if (img_bmp == NULL) {
+				imagen_destruir(img);
+				fprintf(stderr, "Error al abrir el archivo\n");
+				return 1;
+			}
 			escribir_BMP(img, img_bmp);
 			fclose(img_bmp);
 		} break;
