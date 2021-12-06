@@ -9,6 +9,11 @@
  *
  */
 
-//TODO Implementar el TDA Malla
+// TODO Implementar el TDA Malla
 
 #include "../../../inc/mesh.h"
+
+struct malla {
+
+    // TODO Ver de como seria la estructura de malla
+};
