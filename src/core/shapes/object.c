@@ -71,8 +71,8 @@ float objeto_distancia(const objeto_t *objeto, vector_t o, vector_t d, vector_t 
 	const distancia_t geometry_distance_handlers[] = {
 		esfera_distancia,
 		plano_distancia,
-		// TODO triangulo_distancia,
-		// TODO malla_distancia
+		triangulo_distancia,
+		malla_distancia
 	};
 
 	return geometry_distance_handlers[objeto->g_type](objeto->g_ptr, o, d, punto, normal);
