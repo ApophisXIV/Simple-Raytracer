@@ -46,6 +46,7 @@ objeto_t        *objeto_crear(const void *geometria_ptr, const geometria_t g_tip
 
 /**
  * @brief       Destructor de la estructura objeto_t reservada en memoria dinamica
+ * @pre         Objeto debe ser un puntero a una estructura objeto_t valida
  * @param[in]   objeto: Puntero a la estructura objeto_t a destruir
  * @return      None
  */

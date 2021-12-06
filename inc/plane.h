@@ -34,6 +34,7 @@ plano_t         *plano_crear(const vector_t punto, const vector_t normal);
 
 /**
  * @brief       Destructor de la estructura plano_t reservada en memoria dinámica
+ * @pre         Plano debe ser un puntero a una estructura plano_t valida
  * @param[in]   plano: Puntero a la estructura plano_t a destruir
  * @retval      None
  */
@@ -41,7 +42,7 @@ void            plano_destruir(void *plano);
 
 /**
  * @brief       Computa la distancia a la que está un punto de un plano desde el origen a partir del impacto de un rayo
- * @pre         La plano debe ser un puntero a una estructura plano_t valida
+ * @pre         Plano debe ser un puntero a una estructura plano_t valida
  * @pre         El rayo d debe ser un versor.
  * @param[in]   plano: Puntero a una estructura plano_t
  * @param[in]   o: Coordenadas de origen desde las que el rayo es disparado

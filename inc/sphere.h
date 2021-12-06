@@ -33,6 +33,7 @@ esfera_t        *esfera_crear(const vector_t centro, const float radio);
 
 /**
  * @brief       Destructor de la estructura esfera_t reservada en memoria dinamica
+ * @pre         Esfera debe ser un puntero a una estructura esfera_t valida
  * @param[in]   esfera: Puntero a la estructura esfera_t a destruir
  * @retval      None
  */
@@ -41,7 +42,7 @@ void            esfera_destruir(esfera_t *esfera);
 /**
  * @brief       Computa la distancia a la que se encuentra desde un determinado origen el
  *              primer impacto de un rayo sobre una esfera
- * @pre         La esfera debe ser un puntero a una estructura esfera_t valida
+ * @pre         Esfera debe ser un puntero a una estructura esfera_t valida
  * @pre         El rayo d debe ser un versor.
  * @param[in]   esfera: Puntero a una estructura esfera_t
  * @param[in]   o: Coordenadas de origen desde las que el rayo es disparado
