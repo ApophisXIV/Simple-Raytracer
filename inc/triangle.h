@@ -23,6 +23,6 @@ triangulo_t *triangulo_crear(const vector_t p1, const vector_t p2, const vector_
 
 void triangulo_destruir(triangulo_t *triangulo);
 
-float triangulo_distancia(const triangulo_t *triangulo, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal);
+float triangulo_distancia(const triangulo_t *tr, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal);
 
 #endif	  // TRIANGLE_H
