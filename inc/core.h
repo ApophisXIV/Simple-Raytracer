@@ -24,11 +24,11 @@
 
 /* ------------------------------- Prototypes ------------------------------- */
 /**
- * @brief  Genera una escena con los datos dados.
- * @pre    Escena debe apuntar a una miembros validos de la estructura escena_t.
- * @param  *escena: Puntero a la escena a generar.
- * @param  *imagen: Puntero a la imagen a renderizar.
- * @retval True si la escena fue generada con exito, false en caso contrario.
+ * @brief       Genera una escena con los datos dados.
+ * @pre         Escena debe apuntar a miembros validos de la estructura escena_t.
+ * @param[in]  *escena: Puntero a la escena a generar.
+ * @param[in]  *imagen: Puntero a la imagen a renderizar.
+ * @retval      True si la escena fue generada con exito, false en caso contrario.
  */
 bool generar_escena(escena_t *escena, imagen_t *imagen);
 
