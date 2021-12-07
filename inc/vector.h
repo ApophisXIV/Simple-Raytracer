@@ -75,6 +75,14 @@ vector_t		vector_interpolar_recta(const vector_t o, const vector_t d, const floa
  */
 vector_t 		vector_resta(const vector_t a, const vector_t b);
 
+/**
+ * @brief  		Calcula el producto vectorial entre el vector a y b.
+ * @param[in]   a: Struct vector_t cuyo miembro es una terna ordenada A
+ * @param[in]   b: Struct vector_t cuyo miembro es una terna ordenada B
+ * @retval 		Resultado del producto vectorial entre el vector a y b
+ */
+vector_t 		vector_producto_vectorial(const vector_t a, const vector_t b);
+
 /** @} */
 /** @} */
 
