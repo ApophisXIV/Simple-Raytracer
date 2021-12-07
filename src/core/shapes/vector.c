@@ -33,3 +33,13 @@ vector_t vector_interpolar_recta(const vector_t o, const vector_t d, const float
 vector_t vector_resta(const vector_t a, const vector_t b) {
 	return (vector_t){a.x - b.x, a.y - b.y, a.z - b.z};
 }
+
+vector_t vector_producto_vectorial(const vector_t a, const vector_t b){
+	vector_t prod_cruz;
+	prod_cruz.x = a.y * b.z - a.z * b.y;
+	prod_cruz.y = a.x * b.z - a.z * b.x;
+	prod_cruz.z = a.x * b.y - a.y * b.x;
+
+	return prod_cruz;
+}
+
