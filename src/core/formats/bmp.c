@@ -12,6 +12,7 @@
 #include <stdint.h>
 
 #include "../../../inc/bmp.h"
+#include "../../../inc/endianess.h"
 
 /* ------------------------ Encabezado de Archivo BMP ----------------------- */
 #define BMP_FILE_HEADER_TYPE 0x4D42    //"BM"
@@ -42,40 +43,6 @@
  */
 static size_t __file_size_w_padding(size_t ancho, size_t alto) {
     return BMP_FILE_HEADER_SIZE_BYTES + BMP_IMAGE_HEADER_SIZE + alto * (ancho * 3 + 4 - (((ancho * 3) % 4)? ((ancho * 3) % 4) : 4));
-}
-
-/**
- * @brief Escritura de 2 bytes en formato little endian
- * @pre   El archivo debe estar abierto
- * @param  *f: Descriptor de archivo
- * @param  v: Valor a escribir
- * @retval None
- */
-static void __escribir_int16_little_endian(FILE *f, int16_t v) {
-
-    uint8_t v_little_endian[2];
-    v_little_endian[0] = (uint8_t)v;
-    v_little_endian[1] = (uint8_t)(v >> 8);
-
-    fwrite(v_little_endian, sizeof(uint8_t), 2, f);
-}
-
-/**
- * @brief Escritura de 4 bytes en formato little endian
- * @pre   El archivo debe estar abierto
- * @param  *f: Descriptor de archivo
- * @param  v: Valor a escribir
- * @retval None
- */
-static void __escribir_int32_little_endian(FILE *f, int32_t v) {
-
-    uint8_t v_little_endian[4];
-    v_little_endian[0] = (uint8_t)v;
-    v_little_endian[1] = (uint8_t)(v >> 8);
-    v_little_endian[2] = (uint8_t)(v >> 16);
-    v_little_endian[3] = (uint8_t)(v >> 24);
-
-    fwrite(v_little_endian, sizeof(uint8_t), 4, f);
 }
 
 /**
