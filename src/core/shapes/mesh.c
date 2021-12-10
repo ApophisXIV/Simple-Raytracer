@@ -20,18 +20,23 @@
 // TODO Ver de como seria la estructura de malla
 
 struct malla {
-    arreglo_t **v;
+    triangulo_t **tr;
     size_t n;
-};
-
-struct malla2 {
-    triangulo_t *p
-    
 };
 
 malla_t *malla_crear(const char *archivo_stl){
     FILE *p = fopen("archivo.stl", "rb");
-    if(p == NULL) return NULL;
+    if(p == NULL) 
+        return NULL;
+
+}
+
+void malla_destruir(malla_t *malla){
+    free(malla);
+}
+
+float malla_distancia(const malla_t *malla, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal){
+
 }
 
 /*
