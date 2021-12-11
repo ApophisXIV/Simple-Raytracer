@@ -1,5 +1,6 @@
 #Objects
-*.o
+build/
+out/
 
 # VSCode
 .vscode/*
