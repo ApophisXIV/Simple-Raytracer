@@ -32,7 +32,7 @@ bool    arreglo_agregar(arreglo_t *a, const void *e);
 /**
  * @brief       Destructor del arreglo dinamico.
  * @pre         El arreglo debe estar inicializado
- * @param[in]  *a: Puntero al arreglo dinamico.
+ * @param[in]   *a: Puntero al arreglo dinamico.
  * @retval      None
  */
 void    arreglo_destruir(arreglo_t *a);
