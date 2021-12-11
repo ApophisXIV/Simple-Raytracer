@@ -25,8 +25,15 @@ typedef enum {
 } geometria_t;
 
 /* ----------------------------- Data structures ---------------------------- */
-struct objeto;
-typedef struct objeto objeto_t;
+typedef struct {
+	void *g_ptr;
+	geometria_t g_type;
+	float ka;
+	float kd;
+	float ks;
+	float kr;
+	color_t color;
+} objeto_t;
 
 // TODO Agregar a grupo con @defgroup o addgroup
 
@@ -42,7 +49,7 @@ typedef struct objeto objeto_t;
  * @retval      objeto_t*: Puntero a la estructura objeto_t creada
  * @retval      NULL: Error en la creacion de la estructura objeto_t
  */
-objeto_t        *objeto_crear(const void *geometria_ptr, const geometria_t g_tipo, const float ka, const float kd, const float ks, const float kr, const color_t rgb);
+objeto_t        *objeto_crear(void *geometria_ptr, const geometria_t g_tipo, const color_t color, const float ka, const float kd, const float ks, const float kr);
 
 /**
  * @brief       Destructor de la estructura objeto_t reservada en memoria dinamica

@@ -19,17 +19,7 @@
 #include "../../../inc/sphere.h"
 #include "../../../inc/triangle.h"
 
-struct objeto {
-	void *g_ptr;
-	geometria_t g_type;
-	float ka;
-	float kd;
-	float ks;
-	float kr;
-	color_t rgb;
-};
-
-objeto_t *objeto_crear(const void *geometria_ptr, const geometria_t g_tipo, const float ka, const float kd, const float ks, const float kr, const color_t rgb) {
+objeto_t *objeto_crear(void *geometria_ptr, const geometria_t g_tipo, const color_t color, const float ka, const float kd, const float ks, const float kr) {
 
 	objeto_t *objeto_ptr = malloc(sizeof(objeto_t));
 
@@ -38,6 +28,7 @@ objeto_t *objeto_crear(const void *geometria_ptr, const geometria_t g_tipo, cons
 
 	objeto_ptr->g_ptr = geometria_ptr;
 	objeto_ptr->g_type = g_tipo;
+	objeto_ptr->color = color;
 	objeto_ptr->ka = ka;
 	objeto_ptr->kd = kd;
 	objeto_ptr->ks = ks;
@@ -64,7 +55,7 @@ void objeto_destruir(objeto_t *objeto) {
 	free(objeto);
 }
 
-typedef float (*distancia_t)(const void *, const vector_t, const vector_t, const vector_t *, const vector_t *);
+typedef float (*distancia_t)(const void *, const vector_t, const vector_t, vector_t *, vector_t *);
 
 float objeto_distancia(const objeto_t *objeto, vector_t o, vector_t d, vector_t *punto, vector_t *normal) {
 
