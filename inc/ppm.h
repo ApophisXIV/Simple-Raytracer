@@ -28,13 +28,13 @@
 
 /* ------------------------------- Prototypes ------------------------------- */
 /**
- * @brief   Guarda una imagen en un archivo PPM.
- * @pre     La imagen debe estar creada previamente.
- * @pre     El archivo debe estar abierto en modo escritura de texto.
- * @pre     El archivo debe ser de tipo PPM.
- * @param   *imagen: Puntero a la imagen de la cual se obtendrá la información para guardar.
- * @param   *f: Descriptor de archivo donde se almacenara la imagen en formato PPM.
- * @retval  None
+ * @brief       Guarda una imagen en un archivo PPM.
+ * @pre         La imagen debe estar creada previamente.
+ * @pre         El archivo debe estar abierto en modo escritura de texto.
+ * @pre         El archivo debe ser de extension PPM.
+ * @param[in]   *imagen: Puntero a la imagen de la cual se obtendrá la información para guardar.
+ * @param[in]   *f: Descriptor de archivo donde se almacenara la imagen en formato PPM.
+ * @retval      None
  */
 void escribir_PPM(const imagen_t *imagen, FILE *f);
 
