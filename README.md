@@ -1,10 +1,13 @@
-# Algoritmos-y-programacion-1-95.11-FIUBA
+![raytracer_banner](https://user-images.githubusercontent.com/42053774/147417284-32dd7185-d07b-4b95-8d41-e81429c4df5f.png)
+
+# Algoritmos y programacion 1 - 95.11 - FIUBA
 Repositorio del equipo conformado por Johann Pollero (108752) y Guido Rodriguez (108723) para la realización del trabajo práctico final
 ## Materia
 Algoritmos y Programacion 1 - 95.11
 ## Resumen
 En este repositorio se aloja el trabajo producido por el Sr. Johann y el Sr. Guido en relación al trabajo práctico final de la materia.
 ## Compilación
+
 Para compilar el ejercio se hace uso del compilador gcc en conjunto de la herramienta GNU make
 ```c
 make
