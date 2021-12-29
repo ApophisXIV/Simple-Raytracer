@@ -1,25 +1,35 @@
 ![raytracer_banner](https://user-images.githubusercontent.com/42053774/147417284-32dd7185-d07b-4b95-8d41-e81429c4df5f.png)
 
-# Algoritmos y programacion 1 - 95.11 - FIUBA
-Repositorio del equipo conformado por Johann Pollero (108752) y Guido Rodriguez (108723) para la realización del trabajo práctico final
-## Materia
-Algoritmos y Programacion 1 - 95.11
-## Resumen
-En este repositorio se aloja el trabajo producido por el Sr. Johann y el Sr. Guido en relación al trabajo práctico final de la materia.
-## Compilación
+# Simple raytracer
+Simple ray tracing project in C to learn both C and explore algorithms and math for ray tracing.
+## Subject
+Algoritmos y Programacion 1 - 95.11 (FIUBA)
+## Compiling
+In order to compile the project gcc is used together with GNU Make.
 
-Para compilar el ejercio se hace uso del compilador gcc en conjunto de la herramienta GNU make
-```c
+```bash
 make
 ```
-**Observación:** Los flags utilizados para la compilación son -Wall -Werror -std=c99 -pedantic -g -lm. Es importante mencionar que el flag -g es utilizado unicamente en la fase de desarrollo del proyecto para la depuración del mismo.
-## Ejecución
-Ejemplo de ejecución
-```c
-./ray 640 480 10 imagen.bmp
+
+**Note**: The flags used for the compilation are -Wall -Werror -std=c99 -pedantic -g -lm. It is important to mention that the flag -g is used only in the development phase of the project to debug it.
+
+## Execution
+Execution example. The program is capable to generate two different output image format, ppm and bmp.
+```bash
+make run_ppm
 ```
-**Observación:** La resolución de imagen del ejemplo es VGA, la profundidad de recursión es de 10 y el archivo de salida es de formato bmp. También puede ser ppm.
-## Contacto
-jpollero@fi.uba.ar
+```bash
+make run_bmp
+```
+**Note:** The example image resolution is VGA. Recursion depth is 10 and the output image format is bmp. All of these parameters could be changed from the Makefile.
+
+```Makefile
+PROGRAM_IMG_DIMENSIONS = 640 480
+RECURSION_DEPTH = 5
+PROGRAM_OUTPUT_IMAGE_PPM = foo.ppm
+PROGRAM_OUTPUT_IMAGE_BMP = bar.bmp
+```
+
+## Contact me
 guerodriguez@fi.uba.ar
-<br/><br/>Saludos, Johann y Guido 😉.
+<br/><br/>Saludos, Guido 😉.
