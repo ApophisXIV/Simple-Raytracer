@@ -1,0 +1,8 @@
+<map id="malla_distancia" name="malla_distancia">
+<area shape="rect" id="node1" title="Computa la distancia a la que está un punto de un triangulo de la malla desde el origen a partir del ..." alt="" coords="5,81,131,108"/>
+<area shape="rect" id="node2" href="$triangle_8h.html#ad3f57b6d0c6f442d297850714b232b44" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="179,81,325,108"/>
+<area shape="rect" id="node3" href="$group___algebra.html#ga83a5854334b94f4fa749aabf529c4f6a" title="Calcula las coordenadas del punto en el que un determinado rayo impacto para una distancia t desde un..." alt="" coords="382,5,555,32"/>
+<area shape="rect" id="node4" href="$group___algebra.html#gaa599130fbdb73cbb1ed8e37a5e3eb23f" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="379,56,559,83"/>
+<area shape="rect" id="node5" href="$group___algebra.html#ga04dae72f0ce3cbf170edb3ba02adf385" title="Calcula el producto vectorial entre el vector a y b." alt="" coords="373,107,564,133"/>
+<area shape="rect" id="node6" href="$group___algebra.html#ga93f2ec186fbe63259d44e2f4339fd649" title="Calcula la resta entre el vector a y b." alt="" coords="417,157,520,184"/>
+</map>

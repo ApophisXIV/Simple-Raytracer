@@ -1,0 +1,16 @@
+<map id="core.c" name="core.c">
+<area shape="rect" id="node1" title="App core." alt="" coords="439,5,500,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="134,87,202,114"/>
+<area shape="rect" id="node3" href="$core_8h.html" title="App core." alt="" coords="277,87,387,114"/>
+<area shape="rect" id="node9" href="$dynamic__array_8h.html" title="TDA Arreglo dinamico." alt="" coords="5,169,181,196"/>
+<area shape="rect" id="node10" href="$lights_8h.html" title="TDA Luces." alt="" coords="411,87,528,114"/>
+<area shape="rect" id="node11" href="$vector_8h.html" title="TDA Vector." alt="" coords="603,169,677,196"/>
+<area shape="rect" id="node13" href="$object_8h.html" title="TDA Objeto." alt="" coords="553,87,674,114"/>
+<area shape="rect" id="node14" href="$progress__bar_8h.html" title="Barra de progreso." alt="" coords="749,80,875,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="335,244,417,271"/>
+<area shape="rect" id="node5" href="$image_8h.html" title="TDA Imagen." alt="" coords="301,169,376,196"/>
+<area shape="rect" id="node8" href="$scene_8h.html" title="TDA Escena." alt="" coords="205,169,277,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="165,244,240,271"/>
+<area shape="rect" id="node7" href="$color_8h.html" title="TDA Color." alt="" coords="482,244,547,271"/>
+<area shape="rect" id="node12" title=" " alt="" coords="609,244,671,271"/>
+</map>

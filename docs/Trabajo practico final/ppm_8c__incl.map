@@ -1,0 +1,10 @@
+<map id="ppm.c" name="ppm.c">
+<area shape="rect" id="node1" title="PPM." alt="" coords="39,5,102,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,229,80,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="35,80,106,107"/>
+<area shape="rect" id="node4" href="$ppm_8h.html" title="PPM." alt="" coords="131,80,253,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="64,155,131,181"/>
+<area shape="rect" id="node6" href="$image_8h.html" title="TDA Imagen." alt="" coords="155,155,229,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="127,229,209,256"/>
+<area shape="rect" id="node8" href="$color_8h.html" title="TDA Color." alt="" coords="234,229,299,256"/>
+</map>

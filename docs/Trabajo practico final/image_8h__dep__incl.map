@@ -1,0 +1,11 @@
+<map id="image.h" name="image.h">
+<area shape="rect" id="node1" title="TDA Imagen." alt="" coords="141,5,216,32"/>
+<area shape="rect" id="node2" href="$image_8c.html" title="TDA Imagen." alt="" coords="5,80,80,107"/>
+<area shape="rect" id="node3" href="$bmp_8h.html" title="BMP." alt="" coords="105,80,167,107"/>
+<area shape="rect" id="node6" href="$core_8h.html" title="App core." alt="" coords="191,80,254,107"/>
+<area shape="rect" id="node8" href="$ppm_8h.html" title="PPM." alt="" coords="278,80,341,107"/>
+<area shape="rect" id="node4" href="$bmp_8c.html" title="BMP." alt="" coords="58,155,121,181"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="main" alt="" coords="145,155,212,181"/>
+<area shape="rect" id="node7" href="$core_8c.html" title="App core." alt="" coords="236,155,297,181"/>
+<area shape="rect" id="node9" href="$ppm_8c.html" title="PPM." alt="" coords="322,155,385,181"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="vector_interpolar_recta" name="vector_interpolar_recta">
+<area shape="rect" id="node1" title="Calcula las coordenadas del punto en el que un determinado rayo impacto para una distancia t desde un..." alt="" coords="360,5,533,32"/>
+<area shape="rect" id="node2" href="$sphere_8h.html#a4e8b757191057af1b9d6894fd90ad70f" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="183,5,312,32"/>
+<area shape="rect" id="node3" href="$object_8h.html#a257d428cc8002223b35c2a35fdf4c7ad" title="Computa la distancia a la que está un punto de un objeto desde el origen a partir del impacto de un r..." alt="" coords="5,5,135,32"/>
+</map>

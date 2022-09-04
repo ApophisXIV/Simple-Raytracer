@@ -1,0 +1,6 @@
+<map id="vector_producto_vectorial" name="vector_producto_vectorial">
+<area shape="rect" id="node1" title="Calcula el producto vectorial entre el vector a y b." alt="" coords="377,31,568,57"/>
+<area shape="rect" id="node2" href="$triangle_8h.html#a5f540f81849ad95bb78af888894ce73e" title="Constructor de triangulo_t (crea un triangulo a partir de 3 puntos y una normal (opcional))" alt="" coords="196,5,316,32"/>
+<area shape="rect" id="node3" href="$triangle_8h.html#ad3f57b6d0c6f442d297850714b232b44" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="183,56,329,83"/>
+<area shape="rect" id="node4" href="$object_8h.html#a257d428cc8002223b35c2a35fdf4c7ad" title="Computa la distancia a la que está un punto de un objeto desde el origen a partir del impacto de un r..." alt="" coords="5,56,135,83"/>
+</map>

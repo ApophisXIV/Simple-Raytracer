@@ -1,0 +1,5 @@
+<map id="malla_crear" name="malla_crear">
+<area shape="rect" id="node1" title="Crea una malla vacia." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="node2" href="$dynamic__array_8h.html#aaf31a0f75b7fed67d86e86e1fecad694" title="Destructor del arreglo dinamico." alt="" coords="158,5,283,32"/>
+<area shape="rect" id="node3" href="$triangle_8h.html#a6b6f4934d9e13c3256c36859b3848b92" title="Destructor de la estructura triangulo_t reservada en memoria dinamica." alt="" coords="152,56,289,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="objeto_destruir" name="objeto_destruir">
+<area shape="rect" id="node1" title="Destructor de la estructura objeto_t reservada en memoria dinamica." alt="" coords="5,81,125,108"/>
+<area shape="rect" id="node2" href="$sphere_8h.html#a542fd92e6ca315d5c88cc039d62d3e96" title="Destructor de la estructura esfera_t reservada en memoria dinamica." alt="" coords="173,5,293,32"/>
+<area shape="rect" id="node3" href="$mesh_8h.html#a59545179610d12282e68760567b7f197" title="Destruye una malla." alt="" coords="175,56,291,83"/>
+<area shape="rect" id="node5" href="$triangle_8h.html#a6b6f4934d9e13c3256c36859b3848b92" title="Destructor de la estructura triangulo_t reservada en memoria dinamica." alt="" coords="341,107,479,133"/>
+<area shape="rect" id="node6" href="$plane_8h.html#a75809c3ae00e946485ac04adc30726c6" title="Destructor de la estructura plano_t reservada en memoria dinámica." alt="" coords="176,157,291,184"/>
+<area shape="rect" id="node4" href="$dynamic__array_8h.html#aaf31a0f75b7fed67d86e86e1fecad694" title="Destructor del arreglo dinamico." alt="" coords="347,56,473,83"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="object.c" name="object.c">
+<area shape="rect" id="node1" title="TDA Objeto." alt="" coords="409,5,482,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="79,80,150,107"/>
+<area shape="rect" id="node3" href="$object_8h.html" title="TDA Objeto." alt="" coords="379,80,512,107"/>
+<area shape="rect" id="node5" href="$vector_8h.html" title="TDA Vector." alt="" coords="511,229,585,256"/>
+<area shape="rect" id="node7" href="$mesh_8h.html" title="TDA Malla." alt="" coords="174,80,303,107"/>
+<area shape="rect" id="node9" href="$triangle_8h.html" title="TDA Triangulo." alt="" coords="286,155,370,181"/>
+<area shape="rect" id="node12" href="$plane_8h.html" title="TDA Plano." alt="" coords="535,155,665,181"/>
+<area shape="rect" id="node13" href="$sphere_8h.html" title="TDA Esfera." alt="" coords="587,80,725,107"/>
+<area shape="rect" id="node4" href="$color_8h.html" title="TDA Color." alt="" coords="394,155,459,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="517,304,579,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,229,80,256"/>
+<area shape="rect" id="node10" href="$dynamic__array_8h.html" title="TDA Arreglo dinamico." alt="" coords="81,155,210,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="104,229,187,256"/>
+</map>

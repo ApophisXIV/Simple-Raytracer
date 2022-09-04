@@ -1,0 +1,4 @@
+<map id="imagen_crear" name="imagen_crear">
+<area shape="rect" id="node1" title="Crea una imagen vacía." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$group___canvas.html#gadec9754577ef72d0c410029bf1b2116e" title="Libera la memoria de una imagen." alt="" coords="164,5,292,32"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1021,60,1048"/>
+<area shape="rect" id="node2" href="$dynamic__array_8h.html#a59b7369e7d99948e3ee5ef7ae7d2ed1c" title="Agrega un nuevo elemento al arreglo dinamico." alt="" coords="301,5,426,32"/>
+<area shape="rect" id="node3" href="$dynamic__array_8h.html#aaf31a0f75b7fed67d86e86e1fecad694" title="Destructor del arreglo dinamico." alt="" coords="499,289,625,316"/>
+<area shape="rect" id="node4" href="$color_8h.html#ab3f9f89c83468bf461999aa2a88ebb96" title="Genera un color aleatorio." alt="" coords="116,971,227,997"/>
+<area shape="rect" id="node5" href="$group___b_m_p.html#ga5da379cd0663cb5dd607cb22afdc02ba" title="Crea un archivo de extension bmp y almacena la imagen en el mismo." alt="" coords="118,1021,225,1048"/>
+<area shape="rect" id="node12" href="$group___p_p_m.html#ga40d4ce3ca9e675f6bd303f2ff73f7b6c" title="Guarda una imagen en un archivo PPM." alt="" coords="119,1072,224,1099"/>
+<area shape="rect" id="node14" href="$sphere_8h.html#a1137c797eee3b26745f12293c463ab3b" title="Constructor de esfera_t (crea una esfera a partir de un centro y un radio en memoria dinámica)" alt="" coords="120,1123,223,1149"/>
+<area shape="rect" id="node15" href="$group___core.html#gaea6cd84e1b82a785a3caaf76683f0a60" title="Genera una escena con los datos dados." alt="" coords="109,695,234,721"/>
+<area shape="rect" id="node28" href="$group___algebra.html#ga52d56a98f9f6b3f861de01ad57646307" title="Computa el versor asociado al vector provisto." alt="" coords="492,847,632,873"/>
+<area shape="rect" id="node32" href="$group___scene.html#gaecbc727b308a0b8898f9a3b18e621793" title="Crea una imagen vacía." alt="" coords="116,1173,227,1200"/>
+<area shape="rect" id="node33" href="$group___scene.html#gadec9754577ef72d0c410029bf1b2116e" title="Libera la memoria de una imagen." alt="" coords="299,1283,427,1309"/>
+<area shape="rect" id="node34" href="$parser_8h.html#a2077ec4816f9eec6dfc83f2a33df1ea0" title="Verifica si la entrada de datos es valida." alt="" coords="108,1275,235,1301"/>
+<area shape="rect" id="node37" href="$lights_8h.html#acba1207741baaa599a78859e17df694f" title="ructor de luz_t (crea una luz a partir de un vector, un color y un booleano que indica si es puntual ..." alt="" coords="131,1325,212,1352"/>
+<area shape="rect" id="node38" href="$lights_8h.html#a6d7f08ec02b7372195972152f7003ec1" title="Destructor de la estructura luz_t reservada en memoria dinámica." alt="" coords="122,1376,221,1403"/>
+<area shape="rect" id="node39" href="$mesh_8h.html#a9add846450413a70d3ffb2e2d8869ddb" title="Crea una malla vacia." alt="" coords="122,188,221,215"/>
+<area shape="rect" id="node42" href="$triangle_8h.html#a5f540f81849ad95bb78af888894ce73e" title="Constructor de triangulo_t (crea un triangulo a partir de 3 puntos y una normal (opcional))" alt="" coords="303,543,423,569"/>
+<area shape="rect" id="node44" href="$object_8h.html#a459bc10562775252eecb92c448923222" title="Constructor de objeto_t (crea un objeto con una geometria asociada, coeficientes de iluminacion y col..." alt="" coords="120,1427,223,1453"/>
+<area shape="rect" id="node45" href="$object_8h.html#ae463cde6d0a6112f10343e8c3f839fed" title="Destructor de la estructura objeto_t reservada en memoria dinamica." alt="" coords="111,441,231,468"/>
+<area shape="rect" id="node49" href="$plane_8h.html#a2d13f57fe0ea1fe845c7b6dcdd7af240" title="Constructor de plano_t (crea un plano a partir de un punto y una normal en memoria dinamica)" alt="" coords="122,796,221,823"/>
+<area shape="rect" id="node50" href="$group___algebra.html#ga9529cd9b644b038dc2d1a2ad2e020572" title="Genera un vector aleatorio." alt="" coords="111,1477,231,1504"/>
+<area shape="rect" id="node6" href="$bmp_8c.html#a0d355d798020c2e2b27c3777e1d82b9d" title="Escritura de 2 bytes en formato little endian." alt="" coords="290,949,437,990"/>
+<area shape="rect" id="node7" href="$bmp_8c.html#a5082803305fd4ed0244665160a4a1b75" title="Escritura de 4 bytes en formato little endian." alt="" coords="290,1014,437,1055"/>
+<area shape="rect" id="node8" href="$bmp_8c.html#a3243212ce696edc281ef8203f64f2353" title="Escritura de un color RGB en formato little endian." alt="" coords="291,1080,435,1107"/>
+<area shape="rect" id="node9" href="$bmp_8c.html#af37de3d983ad25b5f3a18639468996b6" title="Calculo del tamaño de una imagen BMP con padding bytes." alt="" coords="287,897,439,924"/>
+<area shape="rect" id="node10" href="$group___scene.html#ga3d80719e7848321c2c9f101901b0aa31" title="Rellena una imagen con la forma que genera una funcion recibida por parametro." alt="" coords="283,1181,444,1208"/>
+<area shape="rect" id="node11" href="$group___scene.html#ga1c923fab5a87a5936af4de7042081b35" title="Obtiene el color de un pixel de la imagen." alt="" coords="295,1131,432,1157"/>
+<area shape="rect" id="node13" href="$ppm_8c.html#a4164d074ac5a5a198c654c9ef7f3f8de" title=" " alt="" coords="299,1232,428,1259"/>
+<area shape="rect" id="node16" href="$core_8c.html#a6af664658d048c011faa251a5529d159" title=" " alt="" coords="284,695,443,721"/>
+<area shape="rect" id="node30" href="$group___scene.html#gaecf2fa649c7b064de00a3cbe5ae9e612" title="Setea un pixel de la imagen." alt="" coords="295,593,431,620"/>
+<area shape="rect" id="node31" href="$utils_8h.html#a25912e7ee073df6b5e9926b446f92263" title="Genera una barra de progreso en la salida estandar de error (stderr)" alt="" coords="310,644,417,671"/>
+<area shape="rect" id="node17" href="$core_8c.html#aaeafd4b63df720090a5465b27957d95e" title=" " alt="" coords="503,644,621,671"/>
+<area shape="rect" id="node18" href="$core_8c.html#ad4662f3a79c9f43565c006e94f6d48f7" title=" " alt="" coords="511,593,613,620"/>
+<area shape="rect" id="node19" href="$object_8h.html#a257d428cc8002223b35c2a35fdf4c7ad" title="Computa la distancia a la que está un punto de un objeto desde el origen a partir del impacto de un r..." alt="" coords="497,695,627,721"/>
+<area shape="rect" id="node22" href="$group___algebra.html#gaa599130fbdb73cbb1ed8e37a5e3eb23f" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="1053,745,1233,772"/>
+<area shape="rect" id="node23" href="$group___algebra.html#ga93f2ec186fbe63259d44e2f4339fd649" title="Calcula la resta entre el vector a y b." alt="" coords="1092,644,1195,671"/>
+<area shape="rect" id="node20" href="$sphere_8h.html#a4e8b757191057af1b9d6894fd90ad70f" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="862,745,991,772"/>
+<area shape="rect" id="node24" href="$mesh_8h.html#ad9752859d601cfcbcf2fda43a214cfce" title="Computa la distancia a la que está un punto de un triangulo de la malla desde el origen a partir del ..." alt="" coords="680,644,805,671"/>
+<area shape="rect" id="node25" href="$triangle_8h.html#ad3f57b6d0c6f442d297850714b232b44" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="853,644,1000,671"/>
+<area shape="rect" id="node27" href="$plane_8h.html#ad658145ba63ea77a2ff081420e494032" title="Computa la distancia a la que está un punto de un plano desde el origen a partir del impacto de un ra..." alt="" coords="865,695,989,721"/>
+<area shape="rect" id="node21" href="$group___algebra.html#ga83a5854334b94f4fa749aabf529c4f6a" title="Calcula las coordenadas del punto en el que un determinado rayo impacto para una distancia t desde un..." alt="" coords="1057,695,1230,721"/>
+<area shape="rect" id="node26" href="$group___algebra.html#ga04dae72f0ce3cbf170edb3ba02adf385" title="Calcula el producto vectorial entre el vector a y b." alt="" coords="1048,517,1239,544"/>
+<area shape="rect" id="node29" href="$group___algebra.html#ga2a11696ee4d36547868e63ac1822975b" title="Calcula la norma del vector provisto a partir de sus componentes." alt="" coords="687,847,799,873"/>
+<area shape="rect" id="node35" href="$parser_8c.html#ade859bba254f2cf9f59cc33144e0fe8d" title="Verifica que la extension del archivo sea valida." alt="" coords="284,1384,443,1411"/>
+<area shape="rect" id="node36" href="$parser_8c.html#a7e4ad1d551835247da037ff9a0f4a02d" title="Imprime por consola una breve ayuda sobre como usar el programa." alt="" coords="495,1359,629,1385"/>
+<area shape="rect" id="node40" href="$mesh_8c.html#a5ed7c1875dc62508298fc97afd813fa3" title="Lectura de 4 bytes en formato little endian de un archivo." alt="" coords="297,57,429,98"/>
+<area shape="rect" id="node41" href="$mesh_8c.html#a3631b735ad9137911bba85f0d0ebb7e1" title="Lectura de un vector de 3 floats en formato little endian de un archivo binario." alt="" coords="297,122,429,163"/>
+<area shape="rect" id="node43" href="$triangle_8h.html#a6b6f4934d9e13c3256c36859b3848b92" title="Destructor de la estructura triangulo_t reservada en memoria dinamica." alt="" coords="493,340,631,367"/>
+<area shape="rect" id="node46" href="$sphere_8h.html#a542fd92e6ca315d5c88cc039d62d3e96" title="Destructor de la estructura esfera_t reservada en memoria dinamica." alt="" coords="303,441,423,468"/>
+<area shape="rect" id="node47" href="$mesh_8h.html#a59545179610d12282e68760567b7f197" title="Destruye una malla." alt="" coords="305,340,421,367"/>
+<area shape="rect" id="node48" href="$plane_8h.html#a75809c3ae00e946485ac04adc30726c6" title="Destructor de la estructura plano_t reservada en memoria dinámica." alt="" coords="306,492,421,519"/>
+</map>

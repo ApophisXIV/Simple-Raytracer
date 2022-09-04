@@ -1,0 +1,5 @@
+<map id="escribir_PPM" name="escribir_PPM">
+<area shape="rect" id="node1" title="Guarda una imagen en un archivo PPM." alt="" coords="5,31,111,57"/>
+<area shape="rect" id="node2" href="$group___scene.html#ga3d80719e7848321c2c9f101901b0aa31" title="Rellena una imagen con la forma que genera una funcion recibida por parametro." alt="" coords="159,5,320,32"/>
+<area shape="rect" id="node3" href="$group___scene.html#ga1c923fab5a87a5936af4de7042081b35" title="Obtiene el color de un pixel de la imagen." alt="" coords="171,56,308,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="vector_invertir" name="vector_invertir">
+<area shape="rect" id="node1" title="Invierte el sentido del vector provisto." alt="" coords="837,5,955,32"/>
+<area shape="rect" id="node2" href="$plane_8h.html#ad658145ba63ea77a2ff081420e494032" title="Computa la distancia a la que está un punto de un plano desde el origen a partir del impacto de un ra..." alt="" coords="665,5,789,32"/>
+<area shape="rect" id="node3" href="$object_8h.html#a257d428cc8002223b35c2a35fdf4c7ad" title="Computa la distancia a la que está un punto de un objeto desde el origen a partir del impacto de un r..." alt="" coords="488,5,617,32"/>
+<area shape="rect" id="node4" href="$core_8c.html#a6af664658d048c011faa251a5529d159" title=" " alt="" coords="281,5,440,32"/>
+<area shape="rect" id="node5" href="$group___core.html#gaea6cd84e1b82a785a3caaf76683f0a60" title="Genera una escena con los datos dados." alt="" coords="108,5,233,32"/>
+<area shape="rect" id="node6" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,60,32"/>
+</map>

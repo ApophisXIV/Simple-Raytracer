@@ -1,0 +1,5 @@
+<map id="print_usage_help" name="print_usage_help">
+<area shape="rect" id="node1" title="Imprime por consola una breve ayuda sobre como usar el programa." alt="" coords="387,31,520,57"/>
+<area shape="rect" id="node2" href="$parser_8c.html#ade859bba254f2cf9f59cc33144e0fe8d" title="Verifica que la extension del archivo sea valida." alt="" coords="180,5,339,32"/>
+<area shape="rect" id="node3" href="$parser_8h.html#a2077ec4816f9eec6dfc83f2a33df1ea0" title="Verifica si la entrada de datos es valida." alt="" coords="5,31,132,57"/>
+</map>

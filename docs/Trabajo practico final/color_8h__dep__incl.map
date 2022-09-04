@@ -1,0 +1,18 @@
+<map id="color.h" name="color.h">
+<area shape="rect" id="node1" title="TDA Color." alt="" coords="347,5,412,32"/>
+<area shape="rect" id="node2" href="$color_8c.html" title="TDA Color." alt="" coords="135,80,199,107"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="main" alt="" coords="257,229,323,256"/>
+<area shape="rect" id="node4" href="$image_8h.html" title="TDA Imagen." alt="" coords="223,80,298,107"/>
+<area shape="rect" id="node12" href="$lights_8h.html" title="TDA Luces." alt="" coords="417,155,488,181"/>
+<area shape="rect" id="node14" href="$object_8h.html" title="TDA Objeto." alt="" coords="513,155,587,181"/>
+<area shape="rect" id="node5" href="$image_8c.html" title="TDA Imagen." alt="" coords="179,155,254,181"/>
+<area shape="rect" id="node6" href="$bmp_8h.html" title="BMP." alt="" coords="5,155,68,181"/>
+<area shape="rect" id="node8" href="$core_8h.html" title="App core." alt="" coords="279,155,341,181"/>
+<area shape="rect" id="node10" href="$ppm_8h.html" title="PPM." alt="" coords="92,155,155,181"/>
+<area shape="rect" id="node7" href="$bmp_8c.html" title="BMP." alt="" coords="5,229,68,256"/>
+<area shape="rect" id="node9" href="$core_8c.html" title="App core." alt="" coords="441,229,502,256"/>
+<area shape="rect" id="node11" href="$ppm_8c.html" title="PPM." alt="" coords="92,229,155,256"/>
+<area shape="rect" id="node13" href="$lights_8c.html" title="TDA Luces." alt="" coords="347,229,417,256"/>
+<area shape="rect" id="node15" href="$object_8c.html" title="TDA Objeto." alt="" coords="679,229,752,256"/>
+<area shape="rect" id="node16" href="$dynamic__array_8c.html" title="TDA Arreglo dinamico." alt="" coords="526,229,654,256"/>
+</map>

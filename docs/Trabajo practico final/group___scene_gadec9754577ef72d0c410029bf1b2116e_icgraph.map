@@ -1,0 +1,4 @@
+<map id="imagen_destruir" name="imagen_destruir">
+<area shape="rect" id="node1" title="Libera la memoria de una imagen." alt="" coords="164,5,292,32"/>
+<area shape="rect" id="node2" href="$group___scene.html#gaecbc727b308a0b8898f9a3b18e621793" title="Crea una imagen vacía." alt="" coords="5,5,116,32"/>
+</map>

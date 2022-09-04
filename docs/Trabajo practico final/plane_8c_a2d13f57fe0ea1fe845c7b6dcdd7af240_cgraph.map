@@ -1,0 +1,6 @@
+<map id="plano_crear" name="plano_crear">
+<area shape="rect" id="node1" title="Constructor de plano_t (crea un plano a partir de un punto y una normal en memoria dinamica)" alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node2" href="$group___algebra.html#ga52d56a98f9f6b3f861de01ad57646307" title="Computa el versor asociado al vector provisto." alt="" coords="152,5,292,32"/>
+<area shape="rect" id="node3" href="$group___algebra.html#ga2a11696ee4d36547868e63ac1822975b" title="Calcula la norma del vector provisto a partir de sus componentes." alt="" coords="340,5,452,32"/>
+<area shape="rect" id="node4" href="$group___algebra.html#gaa599130fbdb73cbb1ed8e37a5e3eb23f" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="500,5,680,32"/>
+</map>

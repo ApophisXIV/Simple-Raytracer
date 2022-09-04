@@ -1,0 +1,5 @@
+<map id="vector_normalizar" name="vector_normalizar">
+<area shape="rect" id="node1" title="Computa el versor asociado al vector provisto." alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node2" href="$group___algebra.html#ga2a11696ee4d36547868e63ac1822975b" title="Calcula la norma del vector provisto a partir de sus componentes." alt="" coords="193,5,305,32"/>
+<area shape="rect" id="node3" href="$group___algebra.html#gaa599130fbdb73cbb1ed8e37a5e3eb23f" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="353,5,533,32"/>
+</map>

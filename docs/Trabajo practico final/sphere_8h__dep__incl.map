@@ -1,0 +1,6 @@
+<map id="sphere.h" name="sphere.h">
+<area shape="rect" id="node1" title="TDA Esfera." alt="" coords="103,5,181,32"/>
+<area shape="rect" id="node2" href="$object_8c.html" title="TDA Objeto." alt="" coords="5,80,79,107"/>
+<area shape="rect" id="node3" href="$sphere_8c.html" title="TDA Esfera." alt="" coords="103,80,181,107"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="main" alt="" coords="205,80,271,107"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="lights.h" name="lights.h">
+<area shape="rect" id="node1" title="TDA Luces." alt="" coords="90,5,161,32"/>
+<area shape="rect" id="node2" href="$core_8c.html" title="App core." alt="" coords="5,80,67,107"/>
+<area shape="rect" id="node3" href="$lights_8c.html" title="TDA Luces." alt="" coords="91,80,160,107"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="main" alt="" coords="184,80,251,107"/>
+</map>

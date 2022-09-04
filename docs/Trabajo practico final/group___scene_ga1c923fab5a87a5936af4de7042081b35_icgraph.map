@@ -1,0 +1,5 @@
+<map id="imagen_get_pixel" name="imagen_get_pixel">
+<area shape="rect" id="node1" title="Obtiene el color de un pixel de la imagen." alt="" coords="160,31,297,57"/>
+<area shape="rect" id="node2" href="$group___b_m_p.html#ga5da379cd0663cb5dd607cb22afdc02ba" title="Crea un archivo de extension bmp y almacena la imagen en el mismo." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node3" href="$group___p_p_m.html#ga40d4ce3ca9e675f6bd303f2ff73f7b6c" title="Guarda una imagen en un archivo PPM." alt="" coords="6,56,111,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="esfera_distancia" name="esfera_distancia">
+<area shape="rect" id="node1" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="5,56,135,83"/>
+<area shape="rect" id="node2" href="$group___algebra.html#ga83a5854334b94f4fa749aabf529c4f6a" title="Calcula las coordenadas del punto en el que un determinado rayo impacto para una distancia t desde un..." alt="" coords="186,5,359,32"/>
+<area shape="rect" id="node3" href="$group___algebra.html#gaa599130fbdb73cbb1ed8e37a5e3eb23f" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="183,56,363,83"/>
+<area shape="rect" id="node4" href="$group___algebra.html#ga93f2ec186fbe63259d44e2f4339fd649" title="Calcula la resta entre el vector a y b." alt="" coords="221,107,324,133"/>
+</map>

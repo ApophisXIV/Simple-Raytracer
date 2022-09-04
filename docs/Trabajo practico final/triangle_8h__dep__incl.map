@@ -1,0 +1,8 @@
+<map id="triangle.h" name="triangle.h">
+<area shape="rect" id="node1" title="TDA Triangulo." alt="" coords="119,5,203,32"/>
+<area shape="rect" id="node2" href="$mesh_8c.html" title="TDA Malla." alt="" coords="5,155,75,181"/>
+<area shape="rect" id="node3" href="$object_8c.html" title="TDA Objeto." alt="" coords="101,155,174,181"/>
+<area shape="rect" id="node4" href="$triangle_8c.html" title="TDA Triangulo." alt="" coords="272,80,355,107"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="main" alt="" coords="200,155,267,181"/>
+<area shape="rect" id="node6" href="$mesh_8h.html" title="TDA Malla." alt="" coords="126,80,197,107"/>
+</map>

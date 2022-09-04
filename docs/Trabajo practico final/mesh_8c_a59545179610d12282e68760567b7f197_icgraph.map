@@ -1,0 +1,4 @@
+<map id="malla_destruir" name="malla_destruir">
+<area shape="rect" id="node1" title="Destruye una malla." alt="" coords="173,5,289,32"/>
+<area shape="rect" id="node2" href="$object_8h.html#ae463cde6d0a6112f10343e8c3f839fed" title="Destructor de la estructura objeto_t reservada en memoria dinamica." alt="" coords="5,5,125,32"/>
+</map>

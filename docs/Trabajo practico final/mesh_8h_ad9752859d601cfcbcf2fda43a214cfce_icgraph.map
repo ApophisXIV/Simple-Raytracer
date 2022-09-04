@@ -1,0 +1,4 @@
+<map id="malla_distancia" name="malla_distancia">
+<area shape="rect" id="node1" title="Computa la distancia a la que está un punto de un triangulo de la malla desde el origen a partir del ..." alt="" coords="183,5,308,32"/>
+<area shape="rect" id="node2" href="$object_8h.html#a257d428cc8002223b35c2a35fdf4c7ad" title="Computa la distancia a la que está un punto de un objeto desde el origen a partir del impacto de un r..." alt="" coords="5,5,135,32"/>
+</map>

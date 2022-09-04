@@ -1,0 +1,7 @@
+<map id="arreglo_destruir" name="arreglo_destruir">
+<area shape="rect" id="node1" title="Destructor del arreglo dinamico." alt="" coords="440,28,565,55"/>
+<area shape="rect" id="node2" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,28,60,55"/>
+<area shape="rect" id="node3" href="$mesh_8h.html#a9add846450413a70d3ffb2e2d8869ddb" title="Crea una malla vacia." alt="" coords="119,28,217,55"/>
+<area shape="rect" id="node4" href="$mesh_8h.html#a59545179610d12282e68760567b7f197" title="Destruye una malla." alt="" coords="276,79,392,106"/>
+<area shape="rect" id="node5" href="$object_8h.html#ae463cde6d0a6112f10343e8c3f839fed" title="Destructor de la estructura objeto_t reservada en memoria dinamica." alt="" coords="108,79,228,106"/>
+</map>

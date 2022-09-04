@@ -1,0 +1,7 @@
+<map id="object.h" name="object.h">
+<area shape="rect" id="node1" title="TDA Objeto." alt="" coords="153,5,228,32"/>
+<area shape="rect" id="node2" href="$core_8c.html" title="App core." alt="" coords="5,80,67,107"/>
+<area shape="rect" id="node3" href="$object_8c.html" title="TDA Objeto." alt="" coords="91,80,165,107"/>
+<area shape="rect" id="node4" href="$dynamic__array_8c.html" title="TDA Arreglo dinamico." alt="" coords="189,80,317,107"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="main" alt="" coords="341,80,408,107"/>
+</map>

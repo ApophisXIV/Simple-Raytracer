@@ -1,0 +1,8 @@
+<map id="scene.h" name="scene.h">
+<area shape="rect" id="node1" title="TDA Escena." alt="" coords="91,5,163,32"/>
+<area shape="rect" id="node2" href="$core_8h.html" title="App core." alt="" coords="49,80,111,107"/>
+<area shape="rect" id="node5" href="$parser_8h.html" title="Parser de entrada de datos y escena." alt="" coords="136,80,211,107"/>
+<area shape="rect" id="node3" href="$core_8c.html" title="App core." alt="" coords="5,155,67,181"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="main" alt="" coords="91,155,157,181"/>
+<area shape="rect" id="node6" href="$parser_8c.html" title="Parser de entrada de datos y escena." alt="" coords="182,155,255,181"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="plane.h" name="plane.h">
+<area shape="rect" id="node1" title="TDA Plano." alt="" coords="103,5,173,32"/>
+<area shape="rect" id="node2" href="$object_8c.html" title="TDA Objeto." alt="" coords="5,80,79,107"/>
+<area shape="rect" id="node3" href="$plane_8c.html" title="TDA Plano." alt="" coords="103,80,173,107"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="main" alt="" coords="197,80,263,107"/>
+</map>

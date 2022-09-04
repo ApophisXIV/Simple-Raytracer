@@ -1,0 +1,11 @@
+<map id="objeto_distancia" name="objeto_distancia">
+<area shape="rect" id="node1" title="Computa la distancia a la que está un punto de un objeto desde el origen a partir del impacto de un r..." alt="" coords="5,81,135,108"/>
+<area shape="rect" id="node2" href="$sphere_8h.html#a4e8b757191057af1b9d6894fd90ad70f" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="191,5,321,32"/>
+<area shape="rect" id="node6" href="$mesh_8h.html#ad9752859d601cfcbcf2fda43a214cfce" title="Computa la distancia a la que está un punto de un triangulo de la malla desde el origen a partir del ..." alt="" coords="193,157,319,184"/>
+<area shape="rect" id="node7" href="$plane_8h.html#ad658145ba63ea77a2ff081420e494032" title="Computa la distancia a la que está un punto de un plano desde el origen a partir del impacto de un ra..." alt="" coords="194,56,318,83"/>
+<area shape="rect" id="node8" href="$triangle_8h.html#ad3f57b6d0c6f442d297850714b232b44" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="183,107,329,133"/>
+<area shape="rect" id="node3" href="$group___algebra.html#ga83a5854334b94f4fa749aabf529c4f6a" title="Calcula las coordenadas del punto en el que un determinado rayo impacto para una distancia t desde un..." alt="" coords="386,5,559,32"/>
+<area shape="rect" id="node4" href="$group___algebra.html#gaa599130fbdb73cbb1ed8e37a5e3eb23f" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="383,56,563,83"/>
+<area shape="rect" id="node5" href="$group___algebra.html#ga93f2ec186fbe63259d44e2f4339fd649" title="Calcula la resta entre el vector a y b." alt="" coords="421,107,524,133"/>
+<area shape="rect" id="node9" href="$group___algebra.html#ga04dae72f0ce3cbf170edb3ba02adf385" title="Calcula el producto vectorial entre el vector a y b." alt="" coords="377,157,568,184"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Scene" name="Scene">
+<area shape="rect" id="node1" href="$group___core.html" title=" " alt="" coords="5,80,57,105"/>
+<area shape="rect" id="node3" title=" " alt="" coords="105,80,167,105"/>
+<area shape="rect" id="node2" href="$group___lights.html" title=" " alt="" coords="240,5,301,31"/>
+<area shape="rect" id="node4" href="$group___canvas.html" title=" " alt="" coords="235,55,306,80"/>
+<area shape="rect" id="node5" href="$group___scene__struct.html" title=" " alt="" coords="219,104,322,129"/>
+<area shape="rect" id="node6" href="$group___scene__objects.html" title=" " alt="" coords="215,153,327,179"/>
+</map>

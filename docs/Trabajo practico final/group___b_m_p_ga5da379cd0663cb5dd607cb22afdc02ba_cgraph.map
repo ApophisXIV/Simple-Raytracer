@@ -1,0 +1,5 @@
+<map id="escribir_BMP" name="escribir_BMP">
+<area shape="rect" id="node1" title="Crea un archivo de extension bmp y almacena la imagen en el mismo." alt="" coords="5,31,112,57"/>
+<area shape="rect" id="node2" href="$group___scene.html#ga3d80719e7848321c2c9f101901b0aa31" title="Rellena una imagen con la forma que genera una funcion recibida por parametro." alt="" coords="160,5,321,32"/>
+<area shape="rect" id="node3" href="$group___scene.html#ga1c923fab5a87a5936af4de7042081b35" title="Obtiene el color de un pixel de la imagen." alt="" coords="172,56,309,83"/>
+</map>

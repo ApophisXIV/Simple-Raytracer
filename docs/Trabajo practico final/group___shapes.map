@@ -1,0 +1,9 @@
+<map id="Shapes" name="Shapes">
+<area shape="rect" id="node1" href="$group___core.html" title=" " alt="" coords="5,104,57,129"/>
+<area shape="rect" id="node3" title=" " alt="" coords="105,104,175,129"/>
+<area shape="rect" id="node2" href="$group___triangle.html" title=" " alt="" coords="247,5,321,31"/>
+<area shape="rect" id="node4" href="$group___algebra.html" title=" " alt="" coords="248,55,320,80"/>
+<area shape="rect" id="node5" href="$group___poligonal__mesh.html" title=" " alt="" coords="223,104,345,129"/>
+<area shape="rect" id="node6" href="$group___sphere.html" title=" " alt="" coords="251,153,317,179"/>
+<area shape="rect" id="node7" href="$group___plane.html" title=" " alt="" coords="255,203,313,228"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="plano_destruir" name="plano_destruir">
+<area shape="rect" id="node1" title="Destructor de la estructura plano_t reservada en memoria dinámica." alt="" coords="173,5,288,32"/>
+<area shape="rect" id="node2" href="$object_8h.html#ae463cde6d0a6112f10343e8c3f839fed" title="Destructor de la estructura objeto_t reservada en memoria dinamica." alt="" coords="5,5,125,32"/>
+</map>

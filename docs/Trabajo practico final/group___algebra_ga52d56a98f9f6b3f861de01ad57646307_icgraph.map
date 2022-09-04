@@ -1,0 +1,5 @@
+<map id="vector_normalizar" name="vector_normalizar">
+<area shape="rect" id="node1" title="Computa el versor asociado al vector provisto." alt="" coords="173,31,313,57"/>
+<area shape="rect" id="node2" href="$plane_8h.html#a2d13f57fe0ea1fe845c7b6dcdd7af240" title="Constructor de plano_t (crea un plano a partir de un punto y una normal en memoria dinamica)" alt="" coords="16,5,115,32"/>
+<area shape="rect" id="node3" href="$triangle_8h.html#a5f540f81849ad95bb78af888894ce73e" title="Constructor de triangulo_t (crea un triangulo a partir de 3 puntos y una normal (opcional))" alt="" coords="5,56,125,83"/>
+</map>

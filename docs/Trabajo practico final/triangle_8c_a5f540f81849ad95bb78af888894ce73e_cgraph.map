@@ -1,0 +1,8 @@
+<map id="triangulo_crear" name="triangulo_crear">
+<area shape="rect" id="node1" title="Constructor de triangulo_t (crea un triangulo a partir de 3 puntos y una normal (opcional))" alt="" coords="5,56,125,83"/>
+<area shape="rect" id="node2" href="$group___algebra.html#ga52d56a98f9f6b3f861de01ad57646307" title="Computa el versor asociado al vector provisto." alt="" coords="199,5,339,32"/>
+<area shape="rect" id="node5" href="$group___algebra.html#ga04dae72f0ce3cbf170edb3ba02adf385" title="Calcula el producto vectorial entre el vector a y b." alt="" coords="173,56,364,83"/>
+<area shape="rect" id="node6" href="$group___algebra.html#ga93f2ec186fbe63259d44e2f4339fd649" title="Calcula la resta entre el vector a y b." alt="" coords="217,107,320,133"/>
+<area shape="rect" id="node3" href="$group___algebra.html#ga2a11696ee4d36547868e63ac1822975b" title="Calcula la norma del vector provisto a partir de sus componentes." alt="" coords="412,5,524,32"/>
+<area shape="rect" id="node4" href="$group___algebra.html#gaa599130fbdb73cbb1ed8e37a5e3eb23f" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="572,5,752,32"/>
+</map>

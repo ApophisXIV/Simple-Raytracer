@@ -1,0 +1,11 @@
+<map id="vector_producto_interno" name="vector_producto_interno">
+<area shape="rect" id="node1" title="Calcula el producto interno de los vectores provistos a partir de sus componentes individuales." alt="" coords="556,81,736,108"/>
+<area shape="rect" id="node2" href="$sphere_8h.html#a4e8b757191057af1b9d6894fd90ad70f" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="370,5,499,32"/>
+<area shape="rect" id="node4" href="$plane_8h.html#ad658145ba63ea77a2ff081420e494032" title="Computa la distancia a la que está un punto de un plano desde el origen a partir del impacto de un ra..." alt="" coords="373,56,497,83"/>
+<area shape="rect" id="node5" href="$triangle_8h.html#ad3f57b6d0c6f442d297850714b232b44" title="Computa la distancia a la que se encuentra desde un determinado origen el primer impacto de un rayo s..." alt="" coords="361,107,508,133"/>
+<area shape="rect" id="node6" href="$group___algebra.html#ga2a11696ee4d36547868e63ac1822975b" title="Calcula la norma del vector provisto a partir de sus componentes." alt="" coords="379,157,491,184"/>
+<area shape="rect" id="node3" href="$object_8h.html#a257d428cc8002223b35c2a35fdf4c7ad" title="Computa la distancia a la que está un punto de un objeto desde el origen a partir del impacto de un r..." alt="" coords="179,56,308,83"/>
+<area shape="rect" id="node7" href="$group___algebra.html#ga52d56a98f9f6b3f861de01ad57646307" title="Computa el versor asociado al vector provisto." alt="" coords="173,157,313,184"/>
+<area shape="rect" id="node8" href="$plane_8h.html#a2d13f57fe0ea1fe845c7b6dcdd7af240" title="Constructor de plano_t (crea un plano a partir de un punto y una normal en memoria dinamica)" alt="" coords="16,132,115,159"/>
+<area shape="rect" id="node9" href="$triangle_8h.html#a5f540f81849ad95bb78af888894ce73e" title="Constructor de triangulo_t (crea un triangulo a partir de 3 puntos y una normal (opcional))" alt="" coords="5,183,125,209"/>
+</map>
