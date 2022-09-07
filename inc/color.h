@@ -1,7 +1,7 @@
 /**
  * @file color.h
  * @author Sebastian Santisi
- * @brief Color
+ * @brief TDA Color
  * @version 1.0
  * @date 2021-11-19
  *
@@ -9,12 +9,34 @@
  *
  */
 
+/** @addtogroup Utils
+ *  @{
+ */
+
+/** @defgroup Color Color
+ *  Lista de funciones primitivas de color y estructura
+ *  @{
+ */
+
 #ifndef COLOR_H
 #define COLOR_H
 
-/* ----------------------------- Data structures ---------------------------- */
-typedef struct {
-    double r, g, b;
-} color_t;
+/* ------------------------- Public data structures ------------------------- */
+struct color {
+	double          r, g, b;
+};
+
+/* ----------------------------- Public typedefs ---------------------------- */
+typedef struct color color_t;
+
+/* ---------------------------- Public prototypes --------------------------- */
+/**
+ * @brief  Genera un color aleatorio.
+ * @retval Color aleatorio.
+ */
+color_t         color_random();
+
+/** @} */
+/** @} */
 
 #endif
