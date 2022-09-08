@@ -9,13 +9,6 @@
  *
  */
 
-#ifndef BMP_H
-#define BMP_H
-
-/* -------------------------------- Includes -------------------------------- */
-#include <stdio.h>
-#include "imagen.h"
-
 /** @addtogroup Output
  *  @{
  */
@@ -25,7 +18,14 @@
  *  @{
  */
 
-/* ------------------------------- Prototypes ------------------------------- */
+#ifndef BMP_H
+#define BMP_H
+
+/* -------------------------------- Includes -------------------------------- */
+#include <stdio.h>
+#include "image.h"
+
+/* ---------------------------- Public prototypes --------------------------- */
 /**
  * @brief      Crea un archivo de extension bmp y almacena la imagen en el mismo.
  * @pre        La imagen debe estar creada previamente.
@@ -35,9 +35,9 @@
  * @param[in]  *f: Descriptor de archivo donde se almacenara la imagen en formato BMP.
  * @retval     None
  */
-void escribir_BMP(const imagen_t *imagen, FILE *f);
+void            escribir_BMP(const imagen_t * imagen, FILE * f);
 
 /** @} */
 /** @} */
 
-#endif    // BMP_H
+#endif				// BMP_H
