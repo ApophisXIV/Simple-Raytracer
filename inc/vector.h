@@ -9,11 +9,6 @@
  *
  */
 
-#ifndef VECTOR_H
-#define VECTOR_H
-
-#include <float.h>
-
 /** @addtogroup Shapes
  *  @{
  */
@@ -23,17 +18,26 @@
  *  @{
  */
 
-/* -------------------------------- Constants ------------------------------- */
+#ifndef VECTOR_H
+#define VECTOR_H
+
+/* -------------------------------- Includes -------------------------------- */
+#include <float.h>
+
+/* ----------------------- Public constants and macros ---------------------- */
 #define INFINITO FLT_MAX
 
-/* ----------------------------- Data structures ---------------------------- */
-typedef struct {
+/* ------------------------- Public data structures ------------------------- */
+struct vector_R3{
 	float	x;
 	float	y;
 	float	z;
-} vector_t;
+};
 
-/* ------------------------------- Prototypes ------------------------------- */
+/* ----------------------------- Public typedefs ---------------------------- */
+typedef struct vector_R3 vector_t;
+
+/* ---------------------------- Public prototypes --------------------------- */
 /**
  * @brief		Calcula el producto interno de los vectores provistos a partir de sus componentes individuales
  * @param[in]	a: Struct vector_t cuyo miembro es una terna ordenada A
@@ -82,6 +86,21 @@ vector_t 		vector_resta(const vector_t a, const vector_t b);
  * @retval 		Resultado del producto vectorial entre el vector a y b
  */
 vector_t 		vector_producto_vectorial(const vector_t a, const vector_t b);
+
+/**
+ * @brief		Invierte el sentido del vector provisto
+ * @param[in]	a: Struct vector_t cuyo miembro es una terna ordenada A
+ * @retval		Vector invertido
+ */
+vector_t       vector_invertir(const vector_t a);
+
+/**
+ * @brief		Genera un vector aleatorio
+ * @param[in]	min: Coordenadas minimas de cada componente del vector
+ * @param[in]	max: Coordenadas maximas de cada componente del vector
+ * @retval		Vector aleatorio
+ */
+vector_t	   vector_random(const vector_t min, const vector_t max);
 
 /** @} */
 /** @} */
