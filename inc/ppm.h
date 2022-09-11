@@ -9,14 +9,6 @@
  *
  */
 
-#ifndef PPM_H
-#define PPM_H
-
-/* -------------------------------- Includes -------------------------------- */
-#include <stdio.h>
-
-#include "imagen.h"
-
 /** @addtogroup Output
  *  @{
  */
@@ -26,7 +18,14 @@
  *  @{
  */
 
-/* ------------------------------- Prototypes ------------------------------- */
+#ifndef PPM_H
+#define PPM_H
+
+/* -------------------------------- Includes -------------------------------- */
+#include <stdio.h>
+#include "image.h"
+
+/* ---------------------------- Public prototypes --------------------------- */
 /**
  * @brief       Guarda una imagen en un archivo PPM.
  * @pre         La imagen debe estar creada previamente.
@@ -36,9 +35,9 @@
  * @param[in]   *f: Descriptor de archivo donde se almacenara la imagen en formato PPM.
  * @retval      None
  */
-void escribir_PPM(const imagen_t *imagen, FILE *f);
+void            escribir_PPM(const imagen_t * imagen, FILE * f);
 
 /** @} */
 /** @} */
 
-#endif // PPM_H
+#endif				// PPM_H

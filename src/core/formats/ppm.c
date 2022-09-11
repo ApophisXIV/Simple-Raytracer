@@ -1,5 +1,5 @@
 /**
- * @file ppm.h
+ * @file ppm.c
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
  * @brief PPM
  * @version 1.0
@@ -9,11 +9,24 @@
  *
  */
 
+/** @addtogroup PPM
+ *  @{
+ */
+
+/* -------------------------------- Includes -------------------------------- */
 #include <stddef.h>
 #include <stdint.h>
-
 #include "../../../inc/ppm.h"
 
+/* -------------------- Private prototypes implementation ------------------- */
+/**
+ * @brief  Imprime un color RGB [0 - 255] en formato PPM en un archivo.
+ * @pre    El archivo debe estar abierto en modo escritura de texto.
+ * @pre    El archivo debe ser de extension PPM.
+ * @param  c: Color a imprimir.
+ * @param  *f: Descriptor de archivo donde se almacenara la imagen en formato PPM.
+ * @retval None
+ */
 static void f_color_imprimir(const color_t c, FILE *f) {
     fprintf(f, "%d ", (uint8_t)(c.r > 1 ? 255 : (c.r * 255)));
     fprintf(f, "%d ", (uint8_t)(c.g > 1 ? 255 : (c.g * 255)));
@@ -21,6 +34,7 @@ static void f_color_imprimir(const color_t c, FILE *f) {
     fputc('\n', f);
 }
 
+/* -------------------- Public prototypes implementation -------------------- */
 void escribir_PPM(const imagen_t *imagen, FILE *f) {
 
     size_t ancho, alto;
@@ -32,3 +46,5 @@ void escribir_PPM(const imagen_t *imagen, FILE *f) {
         for (size_t x = 0; x < ancho; x++)
             f_color_imprimir(imagen_get_pixel(imagen, x, y - 1), f);
 }
+
+/** @} */
