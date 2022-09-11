@@ -9,29 +9,19 @@
  *
  */
 
+/** @defgroup Core Core
+ *  @{
+ */
+
 #ifndef CORE_H
 #define CORE_H
 
 /* -------------------------------- Includes -------------------------------- */
 #include <stdbool.h>
+#include "image.h"
+#include "scene.h"
 
-#include "imagen.h"
-
-/** @defgroup Core Core
- *  @{
- */
-
-/* ----------------------------- Data Structures ---------------------------- */
-typedef struct {
-	int ancho;
-	int alto;
-	int iteraciones;
-	void *objetos, *luces;
-	void *ambiente;
-	void *o, *d;
-} escena_t;
-
-/* ------------------------------- Prototypes ------------------------------- */
+/* ---------------------------- Public prototypes --------------------------- */
 /**
  * @brief       Genera una escena con los datos dados.
  * @pre         Escena debe apuntar a miembros validos de la estructura escena_t.
@@ -39,7 +29,7 @@ typedef struct {
  * @param[in]   *imagen: Puntero a la imagen a renderizar.
  * @retval      True si la escena fue generada con exito, false en caso contrario.
  */
-bool generar_escena(escena_t *escena, imagen_t *imagen);
+bool            generar_escena(escena_t * escena, imagen_t * imagen);
 
 /** @} */
 
@@ -47,8 +37,9 @@ bool generar_escena(escena_t *escena, imagen_t *imagen);
  *  @{
  */
 /** @defgroup Shapes Shapes */
-/** @defgroup Canvas Canvas */
+/** @defgroup Scene Scene */
 /** @defgroup Output Output */
+/** @defgroup Utils Utils */
 /** @} */
 
-#endif	// CORE_H
+#endif				// CORE_H
