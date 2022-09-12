@@ -9,19 +9,28 @@
  *
  */
 
+/** @addtogroup Shapes
+ *  @{
+ */
+
+/** @defgroup Plane Plane
+ *  Lista de funciones primitivas de un plano
+ *  @{
+ */
+
 #ifndef PLANE_H
 #define PLANE_H
 
+/* -------------------------------- Includes -------------------------------- */
 #include "vector.h"
 
-/* ----------------------------- Data structures ---------------------------- */
+/* ------------------------- Public data structures ------------------------- */
 struct plano;
+
+/* ----------------------------- Public typedefs ---------------------------- */
 typedef struct plano plano_t;
 
-/* ------------------------------- Prototypes ------------------------------- */
-
-// TODO Agregar a grupo con @defgroup o addgroup
-
+/* ---------------------------- Public prototypes --------------------------- */
 /**
  * @brief       Constructor de plano_t (crea un plano a partir de un punto y una normal en memoria dinamica)
  * @pre         La normal debe ser un versor
@@ -30,12 +39,12 @@ typedef struct plano plano_t;
  * @retval      plano_t*: Puntero a la estructura plano_t creada
  * @retval      NULL: Error en la creacion de la estructura plano_t
  */
-plano_t         *plano_crear(const vector_t punto, const vector_t normal);
+plano_t        *plano_crear(const vector_t punto, const vector_t normal);
 
 /**
  * @brief       Destructor de la estructura plano_t reservada en memoria dinámica
  * @pre         Plano debe ser un puntero a una estructura plano_t valida
- * @param[in]   plano: Puntero a la estructura plano_t a destruir
+ * @param[in]   *plano: Puntero a la estructura plano_t a destruir
  * @retval      None
  */
 void            plano_destruir(void *plano);
@@ -44,7 +53,7 @@ void            plano_destruir(void *plano);
  * @brief       Computa la distancia a la que está un punto de un plano desde el origen a partir del impacto de un rayo
  * @pre         Plano debe ser un puntero a una estructura plano_t valida
  * @pre         El rayo d debe ser un versor.
- * @param[in]   plano: Puntero a una estructura plano_t
+ * @param[in]   *plano: Puntero a una estructura plano_t
  * @param[in]   o: Coordenadas de origen desde las que el rayo es disparado
  * @param[in]   d: Versor asociado al rayo a disparar contra el plano
  * @param[out]  *punto: Punto de impacto.
@@ -52,6 +61,11 @@ void            plano_destruir(void *plano);
  * @retval      float: Distancia calculada
  * @retval      INFINITO: El rayo no impacto sobre el plano
  */
-float           plano_distancia(const plano_t *plano, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal);
+float           plano_distancia(const void *plano, const vector_t o,
+				const vector_t d, vector_t * punto,
+				vector_t * normal);
 
-#endif  // PLANE_H
+/** @} */
+/** @} */
+
+#endif				// PLANE_H
