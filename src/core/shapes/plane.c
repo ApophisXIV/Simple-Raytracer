@@ -9,16 +9,22 @@
  *
  */
 
-#include <stdlib.h>
+/** @addtogroup Plane
+ *  @{
+ */
 
+/* -------------------------------- Includes -------------------------------- */
+#include <stdlib.h>
 #include "../../../inc/plane.h"
 #include "../../../inc/vector.h"
 
+/* ------------------------- Private data structures ------------------------ */
 struct plano {
 	vector_t punto;
 	vector_t normal;
 };
 
+/* -------------------- Public prototypes implementation -------------------- */
 plano_t *plano_crear(const vector_t punto, const vector_t normal) {
 
 	plano_t *plano = malloc(sizeof(plano_t));
@@ -26,7 +32,7 @@ plano_t *plano_crear(const vector_t punto, const vector_t normal) {
 		return NULL;
 
 	plano->punto = punto;
-	plano->normal = normal;
+	plano->normal = vector_normalizar(normal);
 
 	return plano;
 }
@@ -35,18 +41,32 @@ void plano_destruir(void *plano) {
 	free((plano_t *)plano);
 }
 
-float plano_distancia(const plano_t *plano, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal) {
+float plano_distancia(const void *plano, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal) {
+
+	const plano_t *_plano = plano;
 
 	// Verifico que el vector d no sea ortogonal a la normal del plano
-	if (vector_producto_escalar(d, plano->normal) == 0)
+	if (vector_producto_interno(d, _plano->normal) == 0)
 		return INFINITO;
 
-	const float t = vector_producto_interno(vector_resta(o, plano->punto), plano->normal) / vector_producto_interno(d, plano->normal);
+	const float t = vector_producto_interno(vector_resta(_plano->punto, o), _plano->normal) / vector_producto_interno(d, _plano->normal);
 
-	if (punto != NULL && normal != NULL) {
-		*punto = vector_interpolar_recta(o, d, t);
-		*normal = plano->normal;
+	if (t < 0) {
+		return INFINITO;
 	}
+
+	if (punto != NULL)
+		*punto = vector_interpolar_recta(o, d, t);
+
+	if (normal != NULL){
+
+		if (vector_producto_interno(_plano->normal, d) < 0)
+			*normal = _plano->normal;
+		else
+			*normal = vector_invertir(_plano->normal);
+    }
 
 	return t;
 }
+
+/** @} */
