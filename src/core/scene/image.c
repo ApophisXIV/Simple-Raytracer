@@ -9,15 +9,21 @@
  *
  */
 
-#include "../../../inc/imagen.h"
+/** @addtogroup Canvas
+ *  @{
+ */
 
+/* -------------------------------- Includes -------------------------------- */
 #include <stdlib.h>
+#include "../../../inc/image.h"
 
+/* ------------------------- Private data structures ------------------------ */
 struct imagen {
 	color_t **lienzo;
 	size_t ancho, alto;
 };
 
+/* -------------------- Public prototypes implementation -------------------- */
 imagen_t *imagen_crear(size_t ancho, size_t alto) {
 	imagen_t *im = malloc(sizeof(imagen_t));
 	if(im == NULL) return NULL;
@@ -65,3 +71,5 @@ bool imagen_set_pixel(imagen_t *im, size_t x, size_t y, color_t color) {
 color_t imagen_get_pixel(const imagen_t *im, size_t x, size_t y) {
 	return im->lienzo[y][x];
 }
+
+/** @} */
