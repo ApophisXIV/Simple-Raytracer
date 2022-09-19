@@ -1,5 +1,5 @@
 /**
- * @file object.h
+ * @file object.c
  * @author Guido Rodriguez (guerodriguez@fi.uba.ar)
  * @brief TDA Objeto
  * @version 1.0
@@ -9,16 +9,24 @@
  *
  */
 
-#include <stdlib.h>
+/** @addtogroup Scene_objects
+ *  @{
+ */
 
+/* -------------------------------- Includes -------------------------------- */
+#include <stdlib.h>
 #include "../../../inc/object.h"
 #include "../../../inc/vector.h"
-
 #include "../../../inc/mesh.h"
 #include "../../../inc/plane.h"
 #include "../../../inc/sphere.h"
 #include "../../../inc/triangle.h"
 
+/* ---------------------------- Private typedefs ---------------------------- */
+typedef void (*destructor_t)(void *);
+typedef float (*distancia_t)(const void *, const vector_t, const vector_t, vector_t *, vector_t *);
+
+/* -------------------- Public prototypes implementation -------------------- */
 objeto_t *objeto_crear(void *geometria_ptr, const geometria_t g_tipo, const color_t color, const float ka, const float kd, const float ks, const float kr) {
 
 	objeto_t *objeto_ptr = malloc(sizeof(objeto_t));
@@ -37,25 +45,24 @@ objeto_t *objeto_crear(void *geometria_ptr, const geometria_t g_tipo, const colo
 	return objeto_ptr;
 }
 
-typedef void (*destructor_t)(void *);
+void objeto_destruir(void *objeto) {
 
-void objeto_destruir(objeto_t *objeto) {
+	objeto_t *_objeto = objeto;
 
 	const destructor_t geometry_destructors_handlers[] = {
 		esfera_destruir,
 		plano_destruir,
 		triangulo_destruir,
-		malla_destruir};
+		malla_destruir,
+	};
 
-	if (objeto->g_type == OBJECT_UNKNOWN)
+	if (_objeto->g_type == OBJECT_UNKNOWN)
 		return;
 
-	geometry_destructors_handlers[objeto->g_type](objeto->g_ptr);
+	geometry_destructors_handlers[_objeto->g_type](_objeto->g_ptr);
 
-	free(objeto);
+	free(_objeto);
 }
-
-typedef float (*distancia_t)(const void *, const vector_t, const vector_t, vector_t *, vector_t *);
 
 float objeto_distancia(const objeto_t *objeto, vector_t o, vector_t d, vector_t *punto, vector_t *normal) {
 
@@ -63,8 +70,9 @@ float objeto_distancia(const objeto_t *objeto, vector_t o, vector_t d, vector_t 
 		esfera_distancia,
 		plano_distancia,
 		triangulo_distancia,
-		malla_distancia
-	};
+		malla_distancia};
 
 	return geometry_distance_handlers[objeto->g_type](objeto->g_ptr, o, d, punto, normal);
 }
+
+/** @} */
