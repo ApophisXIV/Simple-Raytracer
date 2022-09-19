@@ -9,32 +9,50 @@
  *
  */
 
+/** @addtogroup Utils
+ *  @{
+ */
+
+/** @defgroup Dynamic_array Dynamic array
+ *  Lista de funciones primitivas para manejar arreglos dinamicos.
+ *  @{
+ */
+
 #ifndef DYNAMIC_ARRAY_H
 #define DYNAMIC_ARRAY_H
 
+/* -------------------------------- Includes -------------------------------- */
 #include <stdbool.h>
 #include <stddef.h>
 
-//TODO Ver si se puede privatizar esta estructura evitando exponer los miembros
-typedef struct {
-	void **v;
-	size_t n;
-} arreglo_t;
+/* ------------------------- Public data structures ------------------------- */
+struct arreglo {
+	void          **v;
+	size_t          n;
+};
 
+/* ----------------------------- Public typedefs ---------------------------- */
+typedef struct arreglo arreglo_t;
+
+/* ---------------------------- Public prototypes --------------------------- */
 /**
  * @brief       Agrega un nuevo elemento al arreglo dinamico.
  * @param[in]   *a: Puntero al arreglo dinamico.
  * @param[in]   *e: Puntero al elemento a almacenar.
  * @retval      bool: True si se pudo agregar el elemento, False en caso contrario.
  */
-bool    arreglo_agregar(arreglo_t *a, const void *e);
+bool            arreglo_agregar(arreglo_t * a, void *e);
 
 /**
  * @brief       Destructor del arreglo dinamico.
  * @pre         El arreglo debe estar inicializado
  * @param[in]   *a: Puntero al arreglo dinamico.
+ * @param[in]   *destruir_elemento: Puntero a la funcion que destruye un elemento.
  * @retval      None
  */
-void    arreglo_destruir(arreglo_t *a);
+void            arreglo_destruir(arreglo_t * a, void (*destruir_elemento)(void *));
 
-#endif	  // DYNAMIC_ARRAY_H
+/** @} */
+/** @} */
+
+#endif				// DYNAMIC_ARRAY_H
