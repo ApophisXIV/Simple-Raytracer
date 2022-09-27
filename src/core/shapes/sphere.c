@@ -9,16 +9,23 @@
  *
  */
 
-#include <stdlib.h>
+/** @addtogroup Sphere
+ *  @{
+ */
 
+/* -------------------------------- Includes -------------------------------- */
+#include <math.h>
+#include <stdlib.h>
 #include "../../../inc/sphere.h"
 #include "../../../inc/vector.h"
 
+/* ------------------------- Private data structures ------------------------ */
 struct esfera {
 	vector_t centro;
 	float radio;
 };
 
+/* -------------------- Public prototypes implementation -------------------- */
 esfera_t *esfera_crear(const vector_t centro, const float radio) {
 
 	esfera_t *esfera_h = malloc(sizeof(esfera_t));
@@ -31,15 +38,17 @@ esfera_t *esfera_crear(const vector_t centro, const float radio) {
 	return esfera_h;
 }
 
-void esfera_destruir(esfera_t *esfera) {
-	free(esfera);
+void esfera_destruir(void *esfera) {
+	free((esfera_t *)esfera);
 }
 
-float esfera_distancia(const esfera_t *esfera, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal) {
+float esfera_distancia(const void *esfera, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal) {
 
-	const vector_t co = vector_resta(esfera->centro, o);
+    const esfera_t *_esfera = esfera;
+
+	const vector_t co = vector_resta(_esfera->centro, o);
 	const float cd = vector_producto_interno(co, d);
-	const float delta = cd * cd - vector_producto_interno(co, co) + esfera->radio * esfera->radio;
+	const float delta = cd * cd - vector_producto_interno(co, co) + _esfera->radio * _esfera->radio;
 
 	if ((delta >= 0) && (cd + sqrt(delta) > 0)) {	 // Corto circuito. Priorizo delta >= 0.
 
@@ -48,12 +57,14 @@ float esfera_distancia(const esfera_t *esfera, const vector_t o, const vector_t 
 
 		if (punto != NULL && normal != NULL) {
 			*punto = vector_interpolar_recta(o, d, t);
-			*normal = vector_resta(*punto, esfera->centro);
-			normal->x /= esfera->radio;
-			normal->y /= esfera->radio;
-			normal->z /= esfera->radio;
+			*normal = vector_resta(*punto, _esfera->centro);
+			normal->x /= _esfera->radio;
+			normal->y /= _esfera->radio;
+			normal->z /= _esfera->radio;
 		}
 		return t;
 	}
 	return INFINITO;
 }
+
+/** @} */
