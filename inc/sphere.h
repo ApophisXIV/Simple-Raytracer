@@ -9,19 +9,28 @@
  *
  */
 
+/** @addtogroup Shapes
+ *  @{
+ */
+
+/** @defgroup Sphere Sphere
+ *  Lista de funciones primitivas de una esfera
+ *  @{
+ */
+
 #ifndef SPHERE_H
 #define SPHERE_H
 
+/* -------------------------------- Includes -------------------------------- */
 #include "vector.h"
 
-/* ----------------------------- Data structures ---------------------------- */
+/* ------------------------- Public data structures ------------------------- */
 struct esfera;
+
+/* ----------------------------- Public typedefs ---------------------------- */
 typedef struct esfera esfera_t;
 
-/* ------------------------------- Prototypes ------------------------------- */
-
-// TODO Agregar a grupo con @defgroup o addgroup
-
+/* ---------------------------- Public prototypes --------------------------- */
 /**
  * @brief       Constructor de esfera_t (crea una esfera a partir de un centro y un radio en memoria dinámica)
  * @param[in]   centro: Centro de la esfera
@@ -34,24 +43,27 @@ esfera_t        *esfera_crear(const vector_t centro, const float radio);
 /**
  * @brief       Destructor de la estructura esfera_t reservada en memoria dinamica
  * @pre         Esfera debe ser un puntero a una estructura esfera_t valida
- * @param[in]   esfera: Puntero a la estructura esfera_t a destruir
+ * @param[in]   *esfera: Puntero a la estructura esfera_t a destruir
  * @retval      None
  */
-void            esfera_destruir(esfera_t *esfera);
+void            esfera_destruir(void *esfera);
 
 /**
  * @brief       Computa la distancia a la que se encuentra desde un determinado origen el
  *              primer impacto de un rayo sobre una esfera
  * @pre         Esfera debe ser un puntero a una estructura esfera_t valida
  * @pre         El rayo d debe ser un versor.
- * @param[in]   esfera: Puntero a una estructura esfera_t
+ * @param[in]   *esfera: Puntero a una estructura esfera_t
  * @param[in]   o: Coordenadas de origen desde las que el rayo es disparado
  * @param[in]   d: Versor asociado al rayo a disparar contra la esfera
- * @param[out]  punto: Punto de impacto.
- * @param[out]  normal: Normal de la esfera en el punto de impacto.
+ * @param[out]  *punto: Punto de impacto.
+ * @param[out]  *normal: Normal de la esfera en el punto de impacto.
  * @retval      float: Distancia calculada
  * @retval      INFINITO: El rayo no impacto sobre la esfera
  */
-float           esfera_distancia(const esfera_t *esfera, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal);
+float           esfera_distancia(const void *esfera, const vector_t o, const vector_t d, vector_t *punto, vector_t *normal);
+
+/** @} */
+/** @} */
 
 #endif  // SPHERE_H
